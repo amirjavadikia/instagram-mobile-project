@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
+    marginVertical: 10,
   },
   rightHeader:{
     display: 'flex',

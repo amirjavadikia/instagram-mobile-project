@@ -3,24 +3,26 @@ import {View, StyleSheet, Text, Image} from "react-native";
 
 const  MainPage = () =>{
   return (
+    <View>
     <View style={styles.container}>
       <Image 
         style={styles.logo}
         source={require('./asset/logo.png')}
       />
+      </View>
 
-      <View style={styles.rightHeader}>
-      <Image 
+    <View>
+    <Image 
         style={styles.direct}
         source={require('./asset/direct.png')}
       />
+    </View>
 
 
 <Image 
         style={styles.like}
         source={require('./asset/like.png')}
       />
-      </View>
     </View>
   )
 }
@@ -29,14 +31,7 @@ const  MainPage = () =>{
 const styles = StyleSheet.create({
 
   container:{
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-  rightHeader:{
-    display: 'flex',
-    flexDirection: 'row',
-
+    
   },
   logo: {
       width: "40%",
@@ -44,13 +39,13 @@ const styles = StyleSheet.create({
       padding : 20
   },
   like: {
-    width: "5%",
-    height: "5%",
+    width: "40%",
+    height: "40%",
     padding : 20
 },
 direct: {
-  width: "5%",
-  height: "5%",
+  width: "40%",
+  height: "40%",
   padding : 20
 }
 })

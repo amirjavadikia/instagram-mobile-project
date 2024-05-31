@@ -31,12 +31,6 @@ const styles = StyleSheet.create({
   container:{
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-  rightHeader:{
-    display: 'flex',
-    flexDirection: 'row',
-
   },
   logo: {
       width: "40%",

@@ -9,18 +9,13 @@ const  MainPage = () =>{
         source={require('./asset/logo.png')}
       />
 
-      <View style={styles.rightHeader}>
-      <Image 
-        style={styles.direct}
-        source={require('./asset/direct.png')}
-      />
+
 
 
 <Image 
         style={styles.like}
         source={require('./asset/like.png')}
       />
-      </View>
     </View>
   )
 }
@@ -29,14 +24,7 @@ const  MainPage = () =>{
 const styles = StyleSheet.create({
 
   container:{
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-  rightHeader:{
-    display: 'flex',
-    flexDirection: 'row',
-
+    
   },
   logo: {
       width: "40%",
@@ -44,13 +32,13 @@ const styles = StyleSheet.create({
       padding : 20
   },
   like: {
-    width: "5%",
-    height: "5%",
+    width: "40%",
+    height: "40%",
     padding : 20
 },
 direct: {
-  width: "5%",
-  height: "5%",
+  width: "40%",
+  height: "40%",
   padding : 20
 }
 })
