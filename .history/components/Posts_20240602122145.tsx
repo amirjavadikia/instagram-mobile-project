@@ -126,7 +126,6 @@ const styles = StyleSheet.create({
   },
   input: {
     borderBottomWidth: 1,
-    borderBottomColor: "gray"
   }
 });
 

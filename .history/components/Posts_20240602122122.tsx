@@ -126,7 +126,10 @@ const styles = StyleSheet.create({
   },
   input: {
     borderBottomWidth: 1,
-    borderBottomColor: "gray"
+    width: '50%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
   }
 });
 

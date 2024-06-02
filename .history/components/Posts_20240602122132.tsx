@@ -125,8 +125,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   input: {
-    borderBottomWidth: 1,
-    borderBottomColor: "gray"
+    borderBottomWidth: 1
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
   }
 });
 

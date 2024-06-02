@@ -2,7 +2,7 @@ import React from "react";
 import {View, StyleSheet, Text, Image} from "react-native";
 
 
-const Stories = () => {
+const Stories = ({ borderColors }) => {
     return (
 
     <View style={styles.container}>
@@ -19,6 +19,7 @@ const Stories = () => {
        <Image
        style={styles.image}
        source={require('../asset/k.jpeg')}
+       
        />
        <Text style={styles.text}>kimkim</Text>
     </View>

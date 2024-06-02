@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, Image, TextInput } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 
 const Posts = ({ posts }) => {
   return (
@@ -39,10 +39,6 @@ const Posts = ({ posts }) => {
           </View>
           <Text style={styles.translate}>see translate</Text>
           <Text style={styles.comment}>view all {post.commentsCount} comments</Text>
-          <TextInput
-                style={styles.input}
-                placeholder="Write a comment"
-              />
         </View>
       ))}
     </>
@@ -124,10 +120,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
   },
-  input: {
-    borderBottomWidth: 1,
-    borderBottomColor: "gray"
-  }
 });
 
 export default Posts;

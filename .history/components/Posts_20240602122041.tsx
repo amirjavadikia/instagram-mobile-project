@@ -125,8 +125,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   input: {
-    borderBottomWidth: 1,
-    borderBottomColor: "gray"
+    border
   }
 });
 

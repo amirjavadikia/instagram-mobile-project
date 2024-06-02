@@ -28,6 +28,11 @@ const  MainPage = () =>{
     }
   ];
 
+  const borderColors = {
+    seen: '#cccccc',
+    unseen: ['#833ab4', '#fd1d1d', '#fcb045'], // Gradient colors
+    closeFriends: '#00ff00',
+  };
 
   return (
     

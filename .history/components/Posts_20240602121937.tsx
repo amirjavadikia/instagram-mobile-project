@@ -40,8 +40,8 @@ const Posts = ({ posts }) => {
           <Text style={styles.translate}>see translate</Text>
           <Text style={styles.comment}>view all {post.commentsCount} comments</Text>
           <TextInput
-                style={styles.input}
-                placeholder="Write a comment"
+                value={newBorderColor}
+                placeholder="Border Color"
               />
         </View>
       ))}
@@ -124,10 +124,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
   },
-  input: {
-    borderBottomWidth: 1,
-    borderBottomColor: "gray"
-  }
 });
 
 export default Posts;

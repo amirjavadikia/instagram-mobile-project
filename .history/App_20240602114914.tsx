@@ -28,7 +28,6 @@ const  MainPage = () =>{
     }
   ];
 
-
   return (
     
      <ScrollView>

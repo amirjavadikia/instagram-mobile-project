@@ -10,7 +10,7 @@ const  MainPage = () =>{
   const postsData = [
     {
       id: 1,
-      profileImage: require('./asset/kh.jpeg'),
+      profileImage: require('../asset/kh.jpeg'),
       profileName: 'KHATOON__X',
       postImage: require('./asset/post.jpg'),
       likes: 89,
@@ -19,7 +19,7 @@ const  MainPage = () =>{
     },
     {
       id: 2,
-      profileImage: require('./asset/test.jpg'),
+      profileImage: require('../asset/test.jpg'),
       profileName: 'kamand.qp',
       postImage: require('./asset/ship.jpg'),
       likes: 89,
@@ -27,7 +27,6 @@ const  MainPage = () =>{
       commentsCount: 200
     }
   ];
-
 
   return (
     

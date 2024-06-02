@@ -2,7 +2,7 @@ import React from "react";
 import {View, StyleSheet, Text, Image} from "react-native";
 
 
-const Stories = () => {
+const Stories = ({borderColors }) => {
     return (
 
     <View style={styles.container}>

@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, Image, TextInput } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 
 const Posts = ({ posts }) => {
   return (
@@ -41,7 +41,9 @@ const Posts = ({ posts }) => {
           <Text style={styles.comment}>view all {post.commentsCount} comments</Text>
           <TextInput
                 style={styles.input}
-                placeholder="Write a comment"
+                onChangeText={BorderColorChanger}
+                value={newBorderColor}
+                placeholder="Border Color"
               />
         </View>
       ))}
@@ -124,10 +126,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
   },
-  input: {
-    borderBottomWidth: 1,
-    borderBottomColor: "gray"
-  }
 });
 
 export default Posts;

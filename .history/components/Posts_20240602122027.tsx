@@ -124,10 +124,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
   },
-  input: {
-    borderBottomWidth: 1,
-    borderBottomColor: "gray"
-  }
 });
 
 export default Posts;

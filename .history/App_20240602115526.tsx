@@ -28,12 +28,17 @@ const  MainPage = () =>{
     }
   ];
 
+  const borderColors = {
+    seen: '#cccccc',
+    unseen: ['#833ab4', '#fd1d1d', '#fcb045'], 
+    closeFriends: '#00ff00',
+  };
 
   return (
     
      <ScrollView>
     <Header />
-     <Stories  />
+     <Stories borderColors={borderColors} />
      <Posts posts={postsData}/>
      </ScrollView>
   )
